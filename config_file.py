@@ -16,9 +16,9 @@
     # to = The local-path were u want the remote backup downloaded to
     # hours = The delay before the script will automatically run again keep in mind this WILL work for any amounts under 1 hour ex. ".5" would be 30 minutes
 
-hostname = "45.134.8.207"
+hostname = "remote.ip.server"
 username = "root"
-password = "pekaysmp15789$156"
-download = "/root/SMP/Backups/1-Pekays SMP/"
-to = "/media/pi/Pekays Portable Drive/PEKAYS SMP BACKUPS/"
-hours = 8
+password = "1234"
+download = "/server-remote/Backups"
+to = "/local-server/Backups"
+hours = 1
